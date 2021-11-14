@@ -1,0 +1,258 @@
+[
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-xhdpi_upload.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-xhdpi/upload.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable_logo.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/drawable/logo.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable_banner.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/drawable/banner.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/layout_activity_tambah.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/layout/activity_tambah.xml"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/layout_layout_login.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/layout/layout_login.xml"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-hdpi_upload.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-hdpi/upload.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_calender.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-anydpi-v21/calender.xml"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable_icon_app.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/drawable/icon_app.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-xhdpi_calender.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-xhdpi/calender.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_add.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-hdpi/ic_add.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable_login_shape_bk.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/drawable/login_shape_bk.xml"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable_icon.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/drawable/icon.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/layout_layout_register.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/layout/layout_register.xml"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-mdpi_upload.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-mdpi/upload.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_login_bk.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_login_bk.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-xxhdpi_calender.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-xxhdpi/calender.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_add.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_add.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-hdpi_calender.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-hdpi/calender.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/layout_activity_lihat_data_nikah.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/layout/activity_lihat_data_nikah.xml"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable_icon_create.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/drawable/icon_create.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_login_bk.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_login_bk.xml"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/layout_card_item.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/layout/card_item.xml"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-xxhdpi_upload.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-xxhdpi/upload.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_login_bk.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_login_bk.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_login_bk.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-hdpi/ic_login_bk.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable_view_data.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/drawable/view_data.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_add.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_add.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-ldpi_upload.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-ldpi/upload.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/layout_activity_ubah.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/layout/activity_ubah.xml"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/layout_activity_form_nikah.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/layout/activity_form_nikah.xml"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_add.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-mdpi/ic_add.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_add.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_add.xml"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_login_bk.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-ldpi/ic_login_bk.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_login_bk.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_login_bk.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_add.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_add.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_login_bk.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-mdpi/ic_login_bk.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_calender.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-xxxhdpi/calender.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_upload.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-anydpi-v21/upload.xml"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_upload.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-xxxhdpi/upload.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-ldpi_calender.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-ldpi/calender.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_add.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-ldpi/ic_add.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-mdpi_calender.png.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-mdpi/calender.png"
+    },
+    {
+        "merged": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
+    }
+]

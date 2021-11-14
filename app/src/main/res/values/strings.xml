@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">KUA Pulau Haruku</string>
+    <string name="buat_nikah">Buat Nikah</string>
+    <string name="lihat_nikah">Lihat Nikah</string>
+    <string name="visi">
+        Visi
+    </string>
+    <string name="text_visi">
+        "Terwujudnya Layanan Prima dan Berkualitas"
+    </string>
+    <string name="misi">
+        Misi
+    </string>
+    <string name="misi_1">
+        1. Meningkatkan kaulitas pelayanan dibidang bimbingan agama
+    </string>
+    <string name="misi_2">
+        2. Meningkatkan tata kelolapemerintah yang bersih, berkualitas, dan tanggung jawab
+    </string>
+    <string name="misi_3">
+        3. Meningkatkan kualitas SDM Bimas Islam yang profesional dan proposional
+    </string>
+    <string name="colon_laki">Calon Laki - Laki :</string>
+    <string name="calon_perempuan">Calon Perempuan :</string>
+    <string name="jadwal_nikah">Jadwal Nikah :</string>
+    <string name="tanggal_nikah">Tanggal Nikah</string>
+    <string name="hari">Hari</string>
+    <string name="tempat">Tempat</string>
+    <string name="nik">Nik</string>
+    <string name="nama">Nama</string>
+    <string name="alamat">Alamat</string>
+    <string name="agama">Agama</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="upload_foto">Upload Foto</string>
+    <string name="upload_ktp">Upload KTP</string>
+    <string name="upload_kk">Upload KK</string>
+    <string name="judul">
+        PERANCANGAN APLIKASI PELAYANAN PERNIKAHAN BERBASIS ANDROID PADA KANTOR URUSAN AGAMA (KUA) KECAMATAN PULAU HARUKU KABUPATEN MALUKU TENGAH
+POROVINSI MALUKU
+    </string>
+
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+
+<!--    start button-->
+    <string name="btn_save">Save Data</string>
+    <string name="btn_update">Update Data</string>
+<!--    end button-->
+
+<!--    start info-->
+    <string name="delete_data">Delete Data</string>
+    <string name="update_data">Update Data</string>
+<!--    end info-->
+</resources>

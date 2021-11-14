@@ -1,0 +1,4 @@
+#Sun Nov 14 09:18:48 WITA 2021
+base.0=/Users/tantowi/MyData/Skripsi/LaundryPalembang-main/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

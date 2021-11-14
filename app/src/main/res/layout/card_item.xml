@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp"
+        >
+
+        <TextView
+            android:id="@+id/id_nikah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id Nikah"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/tv_nama_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Laki - laki"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_nama_p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Perempuan"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat Pernikahan"
+            android:textSize="18sp"
+            android:maxLines="2"
+            />
+
+        <TextView
+            android:id="@+id/tv_jadwal_nikah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jadwal Nikah"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
