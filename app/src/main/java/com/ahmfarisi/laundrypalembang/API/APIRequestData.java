@@ -24,7 +24,7 @@ public interface APIRequestData {
             @Field("agama_l") String agama_l,
             @Field("telepon_l") String telepon_l,
             @Field("tanggal_lahir_l") String tanggal_lahir_l,
-            @Part("foto_l") String foto_l,
+            @Field("foto_l") String foto_l,
             @Field("ktp_l") String ktp_l,
             @Field("kk_l") String kk_l,
             @Field("nik_p") String nik_p,
