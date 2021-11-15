@@ -8,7 +8,7 @@ public class RetroServer {
 //    private static final String baseURL = "http://10.0.2.2/laundry/";
     private static Retrofit retro;
 
-    public static Retrofit konekRetrofit(){
+    public static Retrofit getRetrofit(){
         if(retro == null){
             retro = new Retrofit.Builder()
                     .baseUrl(baseURL)

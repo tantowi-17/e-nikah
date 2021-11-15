@@ -77,6 +77,12 @@
             android:drawableRight="@drawable/upload"
             android:textSize="16dp"
             android:inputType="text"/>
+        <ImageView
+            android:id="@+id/img_foto"
+            android:paddingTop="10dp"
+            android:paddingBottom="110dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
         <EditText
             android:id="@+id/et_upload_ktp"
             android:layout_width="match_parent"

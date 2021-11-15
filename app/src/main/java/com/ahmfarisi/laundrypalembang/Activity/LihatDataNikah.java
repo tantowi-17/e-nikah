@@ -5,7 +5,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ProgressBar;
@@ -77,7 +76,7 @@ public class LihatDataNikah extends AppCompatActivity {
     public void retrieveData(){
         pbData.setVisibility(View.VISIBLE);
 
-        APIRequestData ardData = RetroServer.konekRetrofit().create(APIRequestData.class);
+        APIRequestData ardData = RetroServer.getRetrofit().create(APIRequestData.class);
         Call<ResponseModel> tampilData = ardData.ardRetrieveData();
 
         tampilData.enqueue(new Callback<ResponseModel>() {

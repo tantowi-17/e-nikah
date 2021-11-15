@@ -118,7 +118,7 @@ public class AdapterData extends RecyclerView.Adapter<AdapterData.HolderData>{
         }
 
         private void deleteData(){
-            APIRequestData ardData = RetroServer.konekRetrofit().create(APIRequestData.class);
+            APIRequestData ardData = RetroServer.getRetrofit().create(APIRequestData.class);
             Call<ResponseModel> hapusData = ardData.ardDeleteData(idNikah);
 
             hapusData.enqueue(new Callback<ResponseModel>() {
@@ -138,7 +138,7 @@ public class AdapterData extends RecyclerView.Adapter<AdapterData.HolderData>{
         }
 
         private void getData(){
-            APIRequestData ardData = RetroServer.konekRetrofit().create(APIRequestData.class);
+            APIRequestData ardData = RetroServer.getRetrofit().create(APIRequestData.class);
             Call<ResponseModel> ambilData = ardData.ardGetData(idNikah);
 
             ambilData.enqueue(new Callback<ResponseModel>() {

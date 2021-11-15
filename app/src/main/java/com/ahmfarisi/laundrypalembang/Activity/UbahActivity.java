@@ -182,7 +182,7 @@ public class UbahActivity extends AppCompatActivity {
     }
 
     private void updateData(){
-        APIRequestData ardData = RetroServer.konekRetrofit().create(APIRequestData.class);
+        APIRequestData ardData = RetroServer.getRetrofit().create(APIRequestData.class);
         Call<ResponseModel> ubahData = ardData.ardUpdateData(xIdNikah,
                 yNikLaki,yNamaLakiNikah,yAlamatLaki,yAgamaLaki,yTeleponLaki, yTanggalLahirLaki,yFotoLaki,yKtpLaki,yKkLaki,
                 yNikPerem,yNamaPerem,yAlamatPerem,yAgamaPerem,yTeleponPerem, yTanggalLahirPerem,yFotoPerem,yKtpPerem,yKkPerem,yTanggalNikah,yHariNikah,yTempatNikah);

@@ -4,15 +4,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.database.Cursor;
-import android.graphics.BitmapFactory;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.util.Base64;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.ahmfarisi.laundrypalembang.API.APIRequestData;
@@ -21,11 +23,9 @@ import com.ahmfarisi.laundrypalembang.Model.ResponseModel;
 import com.ahmfarisi.laundrypalembang.R;
 import com.ahmfarisi.laundrypalembang.Service.DatePickerService;
 
-import java.io.File;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 
-import okhttp3.MediaType;
-import okhttp3.MultipartBody;
-import okhttp3.RequestBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -38,16 +38,18 @@ public class TambahActivity extends AppCompatActivity {
 
      String nik_l, nama_l, alamat_l, agama_l, telepon_l,tanggal_lahir_l,foto_l,ktp_l,kk_l,
              nik_p, nama_p, alamat_p, agama_p, telepon_p,tanggal_lahir_p,foto_p,ktp_p,kk_p,
-             tanggl_nikah, hari, tempat;
+             tanggl_nikah, hari, tempat, imgUrl;
 
      Button btnSave;
 
      String part_image;
      ProgressDialog pd;
+     Bitmap bitmap;
+     ImageView imageFoto;
 
 
 
-    final int REQUEST_GALLERY = 1;
+    final int REQUEST_GALLERY = 777;
     final int REQUEST_CAPTURE = 0;
 
     @Override
@@ -56,7 +58,9 @@ public class TambahActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tambah);
 
         pd = new ProgressDialog(this);
-        pd.setMessage("loading ... ");
+        pd.setMessage("Proses save...");
+
+        imageFoto = findViewById(R.id.img_foto);
 
         // data calon laki-laki
         etNik = findViewById(R.id.et_nik);
@@ -129,7 +133,8 @@ public class TambahActivity extends AppCompatActivity {
                 agama_l = etAgama.getText().toString();
                 telepon_l = etTelepon.getText().toString();
                 tanggal_lahir_l = etTanggalLahir.getText().toString();
-                foto_l = etUploadFoto.getText().toString();
+                imgUrl = convertToString();
+//                foto_l = etUploadFoto.getText().toString();
                 ktp_l = etUploadKtp.getText().toString();
                 kk_l = etUploadKk.getText().toString();
 
@@ -166,18 +171,13 @@ public class TambahActivity extends AppCompatActivity {
 
         if (resultCode == RESULT_OK) {
             if(requestCode == REQUEST_GALLERY) {
-                Uri dataimage = data.getData();
-                String[] imageprojection = {MediaStore.Images.Media.DATA};
-                Cursor cursor = getContentResolver().query(dataimage,imageprojection,null,null,null);
-
-                if (cursor != null) {
-                    cursor.moveToFirst();
-                    int indexImage = cursor.getColumnIndex(imageprojection[0]);
-                    part_image = cursor.getString(indexImage);
-                    if (part_image != null) {
-                        File image = new File(part_image);
-                        etUploadFoto.setText(image.getName());
-                    }
+                Uri path = data.getData();
+                try {
+                    bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(),path);
+                    imageFoto.setImageBitmap(bitmap);
+                    imageFoto.setVisibility(View.VISIBLE);
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
             }
         }
@@ -188,28 +188,26 @@ public class TambahActivity extends AppCompatActivity {
      */
     private void createData(){
         pd.show();
-        File imagefile = new File(part_image);
-        RequestBody reqBody = RequestBody.create(MediaType.parse("multipart/form-file"),imagefile);
-        MultipartBody.Part imageupload = MultipartBody.Part.createFormData("imageupload", imagefile.getPath(),reqBody);
-
-        APIRequestData ardData = RetroServer.konekRetrofit().create(APIRequestData.class);
+        APIRequestData ardData = RetroServer.getRetrofit().create(APIRequestData.class);
         Call<ResponseModel> saveData = ardData.ardCreateData(
-                nik_l, nama_l, alamat_l, agama_l, telepon_l,tanggal_lahir_l,foto_l,ktp_l,kk_l,
+                nik_l, nama_l, alamat_l, agama_l, telepon_l,tanggal_lahir_l,imgUrl,ktp_l,kk_l,
                 nik_p, nama_p, alamat_p, agama_p, telepon_p,tanggal_lahir_p,foto_p,ktp_p,kk_p, tanggl_nikah, hari, tempat);
 
         saveData.enqueue(new Callback<ResponseModel>() {
             @Override
             public void onResponse(Call<ResponseModel> call, Response<ResponseModel> response) {
-                int kode = response.body().getKode();
-                String pesan = response.body().getPesan();
+                ResponseModel responseModel = response.body();
+                Log.d("Server Response", ""+responseModel.getPesan());
 
-                Toast.makeText(TambahActivity.this, "Kode : "+kode+" | Pesan : "+pesan, Toast.LENGTH_SHORT).show();
+                Toast.makeText(TambahActivity.this, ""+responseModel.getPesan(), Toast.LENGTH_SHORT).show();
+                imageFoto.setVisibility(View.GONE);
                 finish();
             }
 
             @Override
             public void onFailure(Call<ResponseModel> call, Throwable t) {
-                Toast.makeText(TambahActivity.this, "Gagal Menghubungi Server | "+t.getMessage(), Toast.LENGTH_SHORT).show();
+                Log.d("Server Response",""+t.toString());
+                Toast.makeText(TambahActivity.this, "Server Not Found !", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -267,5 +265,12 @@ public class TambahActivity extends AppCompatActivity {
 
 //        Intent view = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
 //        startActivityForResult(view, REQUEST_GALLERY);
+    }
+
+    private String convertToString() {
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+        bitmap.compress(Bitmap.CompressFormat.JPEG,100,byteArrayOutputStream);
+        byte[] imgByte = byteArrayOutputStream.toByteArray();
+        return Base64.encodeToString(imgByte,Base64.DEFAULT);
     }
 }
